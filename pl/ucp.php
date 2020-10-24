@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'FULL_FOLDER_OPTION_CHANGED'=> 'Domyślna czynność została zmieniona.',
 	'FWD_ORIGINAL_MESSAGE'		=> '------- Wiadomość oryginalna -------',
 	'FWD_SUBJECT'				=> 'Temat: %s',
-	'FWD_DATE'					=> 'Data: %s',
+	'FWD_DATE'					=> 'Data PW: %s',
 	'FWD_FROM'					=> 'Od: %s',
 	'FWD_TO'					=> 'Do: %s',
 
