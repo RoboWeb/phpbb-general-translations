@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.2 - 07.11.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -227,7 +227,7 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Wstecz',
 
-	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
+	'CONTAINER_EXCEPTION' => 'Z powodu zainstalowanych rozszerzeń phpBB napotkał problem podczas budowania kontenera. Wszystkie rozszerzenia zostały tymczasowo wyłączone. Należy wyczyścić pamięć podręczną forum. Wszystkie rozszerzenia zostaną automatycznie włączone, gdy błąd zostanie rozwiązany. Jeśli problem nadal występuję, odwiedź stronę <a href="https://www.phpbb.com/support">phpBB.com</a> lub <a href="http://www.phpbb.pl/">phpBB.pl</a>.',
 	'EXCEPTION' => 'Wyjątek',
 
 	'COLOUR_SWATCH'			=> 'Wybierz kolor',
@@ -236,6 +236,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'Nie można znaleźć zadania „%s”.',
 	'CRON_NO_TASK'			=> 'Nie ma potrzeby uruchamiania zadań teraz.',
 	'CRON_NO_TASKS'			=> 'Nie znaleziono zadań.',
+	'CSV_INVALID'			=> 'Wprowadzone ustawienia pliku .csv “%1$s” są nieprawidłowe. Dane powinny być oddzielone wyłącznie przecinkami. Nie powinny zawierać innych znaków początkowych lub końcowych.',
 	'CURRENT_VERSION'		=> 'Zainstalowana wersja',
 
 	'DEACTIVATE'				=> 'Dezaktywuj',
@@ -317,6 +318,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'					=> 'Panel zarządzania kontem',
 	'URL_INVALID'			=> 'Wprowadzony adres URL dla ustawień “%1$s” jest nieprawidłowy.',
+	'URL_SCHEME_INVALID'	=> 'Wprowadzony schemat “%2$s” w ustawieniach pliku .csv “%1$s” jest nieprawidłowy. Schemat powinien zaczynać się od łacińskiego znaku, po którym występuje znak alfanumeryczny, myślnik lub kropka.',
 	'USERNAMES_EXPLAIN'		=> 'Każdą nazwę użytkownika wpisz w osobnym wierszu.',
 	'USER_CONTROL_PANEL'	=> 'Panel zarządzania kontem',
 	
@@ -501,13 +503,13 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Dodano lub zmieniono administratorów</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Dodano lub zmieniono globalnych moderatorów</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia dostępu do forów</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia moderatora forum</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia dostępu do forum</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia moderatora forum</strong> z %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia dostępu do forów</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia moderatora forum</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia dostępu do forum</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia moderatora forum</strong> na %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Dodano lub zmieniono moderatorów</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Dodano lub zmieniono uprawnienia dostępu do forum</strong> z %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Dodano lub zmieniono moderatorów</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Dodano lub zmieniono uprawnienia dostępu do forum</strong> na %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Usunięto administratorów</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Usunięto moderatorów globalnych</strong><br />» %s',

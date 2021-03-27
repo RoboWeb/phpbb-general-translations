@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.2 - 07.11.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -186,10 +186,10 @@ $lang = array_merge($lang, array(
 	'MAX_POLL_OPTIONS'				=> 'Maksymalna liczba opcji ankiety',
 	'MAX_POST_FONT_SIZE'			=> 'Maksymalny rozmiar czcionki w poście',
 	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Maksymalny dozwolony rozmiar czcionki w poście. Wartość zero (0) – rozmiar czcionki nielimitowany.',
-	'MAX_POST_IMG_HEIGHT'			=> 'Maksymalna wysokość obrazka w poście',
-	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Maksymalna wysokość obrazka/pliku flash w postach. Wartość zero (0) – wysokość nielimitowana.',
-	'MAX_POST_IMG_WIDTH'			=> 'Maksymalna szerokość obrazka w poście',
-	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Maksymalna szerokość obrazka/pliku flash w postach. Wartość zero (0) – szerokość nielimitowana.',
+	'MAX_POST_IMG_HEIGHT'			=> 'Maksymalna wysokość pliku flash w poście',
+	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Maksymalna wysokość pliku flash w postach. Wartość zero (0) – wysokość nielimitowana.',
+	'MAX_POST_IMG_WIDTH'			=> 'Maksymalna szerokość pliku flash w poście',
+	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Maksymalna szerokość pliku flash w postach. Wartość zero (0) – szerokość nielimitowana.',
 	'MAX_POST_URLS'					=> 'Maksymalna liczba odnośników w poście',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Maksymalna liczba adresów URL w poście. Wartość zero (0) – liczba odnośników nielimitowana.',
 	'MIN_CHAR_LIMIT'				=> 'Minimalna liczba znaków w poście/wiadomości',
@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 	'MIN_CHARS'					=> 'min',
 	'NO_AUTH_PLUGIN'			=> 'Nie znaleziono odpowiedniej wtyczki uwierzytelniającej.',
 	'PASSWORD_LENGTH'			=> 'Długość hasła',
-	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimalna i maksymalna liczba znaków w hasłach.',
+	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimalna liczba znaków w haśle. Maksymalna liczba znaków jest nieograniczona.',
 	'REG_LIMIT'					=> 'Liczba prób rejestracji',
 	'REG_LIMIT_EXPLAIN'			=> 'Liczba prób wprowadzenia kodu potwierdzającego, jakie użytkownik może wykonać, zanim zostanie zablokowany w tej sesji.',
 	'USERNAME_ALPHA_ONLY'		=> 'Tylko litery i cyfry',

@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.3.2 - 07.11.2020, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Pomoc',
-	'SUPPORT_BODY'		=> 'Pełna pomoc dla tego wydania phpBB3 jest darmowa. Zakres pomocy obejmuje:</p><ul><li>instalację</li><li>konfigurację</li><li>zapytania techniczne</li><li>problemy związane z potencjalnymi błędami oprogramowania</li><li>aktualizację wersji testowej RC do najnowszej, stabilnej wersji</li><li>konwersję z phpBB 2.0.x na phpBB3</li><li>konwersję z innych systemów forów dyskusyjnych na phpBB3 (przejdź na <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Zachęcamy użytkowników korzystających z wersji testowych phpBB3, aby dokonali aktualizacji do najnowszej stabilnej wersji.</p><h2>Rozszerzenia / Style</h2><p>W sprawach dotyczących rozszerzeń, należy kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />W sprawach związanych ze stylami, szablonami, zestawami obrazków, proszę kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />Jeśli pytania dotyczą konkretnego pakietu, proszę zadać je bezpośrednio w temacie dedykowanym temu pakietowi.</p><h2>Pomoc</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Quick Start Guide</a><br /><br />Aby otrzymywać najnowsze informacje o aktualizacjach, <a href="https://www.phpbb.com/support/">subskrybuj naszą listę mailingową</a>.<br /><br />',
+	'SUPPORT_BODY'		=> 'Pełna pomoc dla tego wydania phpBB3 jest darmowa. Zakres pomocy obejmuje:</p><ul><li>instalację</li><li>konfigurację</li><li>zapytania techniczne</li><li>problemy związane z potencjalnymi błędami oprogramowania</li><li>aktualizację wersji testowej RC do najnowszej, stabilnej wersji</li><li>konwersję z phpBB 2.0.x na phpBB3</li><li>konwersję z innych systemów forów dyskusyjnych na phpBB3 (przejdź na <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Zachęcamy użytkowników korzystających z wersji testowych phpBB3, aby dokonali aktualizacji do najnowszej stabilnej wersji.</p><h2>Rozszerzenia / Style</h2><p>W sprawach dotyczących rozszerzeń, należy kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />W sprawach związanych ze stylami, szablonami, zestawami obrazków, proszę kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />Jeśli pytania dotyczą konkretnego pakietu, proszę zadać je bezpośrednio w temacie dedykowanym temu pakietowi.</p><h2>Pomoc</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Quick Start Guide</a><br /><br />Aby otrzymywać najnowsze informacje o aktualizacjach, <a href="https://www.phpbb.com/support/">subskrybuj naszą listę mailingową</a>.<br /><br />',
 				    
 	// License
 	'LICENSE_TITLE'		=> 'Licencja GPL',
@@ -114,6 +114,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB <strong>nie</strong> uruchomi się, jeśli instalacja PHP nie jest skompilowana ze wsparciem UTF-8 w rozszerzeniu PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Obsługa PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP JSON musi być dostępne.',
+	'PHP_MBSTRING_SUPPORT'				=> 'Obsługa PHP mbstring',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP mbstring musi być dostępne.',
 	'PHP_XML_SUPPORT'					=> 'Obsługa PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP XML/DOM musi być dostępne.',
 	'PHP_SUPPORTED_DB'					=> 'Obsługiwane bazy danych',
@@ -239,7 +241,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Krótki opis witryny',
 	'CONFIG_SITENAME'				=> 'twoja_domena.pl',
 
-	'DEFAULT_INSTALL_POST'			=> 'To jest przykładowy post na tej witrynie phpBB3. Wygląda na to, że wszystko działa prawidłowo. Możesz, jeśli chcesz, usunąć ten post i przystąpić do konfiguracji witryny. Podczas procesu instalacji pierwsze forum otrzymało odpowiedni zestaw uprawnień dla predefiniowanych grup użytkowników – administratorów, botów, globalnych moderatorów, gości, zarejestrowanych użytkowników i zarejestrowanych użytkowników COPPA. Jeśli zamierzasz usunąć pierwsze forum i subforum, nie zapomnij przydzielić uprawnień wszystkim wcześniej wymienionym grupom użytkowników w tworzonych przez ciebie nowych forach i subforach. Zaleca się zmienić nazwę pierwszego forum i subforum i skopiować ich uprawnienia dla nowo tworzonych forów i subforów. Życzymy przyjemnej zabawy z twoją nową witryną phpBB3!',
+	'DEFAULT_INSTALL_POST'			=> '<t>To jest przykładowy post na tej witrynie phpBB3. Wygląda na to, że wszystko działa prawidłowo. Możesz, jeśli chcesz, usunąć ten post i przystąpić do konfiguracji witryny. Podczas procesu instalacji pierwsze forum otrzymało odpowiedni zestaw uprawnień dla predefiniowanych grup użytkowników – administratorów, botów, globalnych moderatorów, gości, zarejestrowanych użytkowników i zarejestrowanych użytkowników COPPA. Jeśli zamierzasz usunąć pierwsze forum i subforum, nie zapomnij przydzielić uprawnień wszystkim wcześniej wymienionym grupom użytkowników w tworzonych przez ciebie nowych forach i subforach. Zaleca się zmienić nazwę pierwszego forum i subforum i skopiować ich uprawnienia dla nowo tworzonych forów i subforów. Życzymy przyjemnej zabawy z twoją nową witryną phpBB3!</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Pierwsze forum typu „Kategoria”',
 	'FORUMS_TEST_FORUM_DESC'		=> 'To jest twoje pierwsze forum typu „Forum”',
